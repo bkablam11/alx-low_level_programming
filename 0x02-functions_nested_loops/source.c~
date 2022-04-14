@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "myheader.h"
+#include <conio.h>
+/**
+   main - Entry in function
+ */
+int main()
+{
+  int n, result;
+  printf("Number: ");
+  scanf("%d",&n);
+  result=square(n);
+  printf("square de %d est %d", n, result);
+  getch();
+  return (0);
+}
