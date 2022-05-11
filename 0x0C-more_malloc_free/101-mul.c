@@ -1,4 +1,4 @@
-#include "main.h"
+#include "man.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
